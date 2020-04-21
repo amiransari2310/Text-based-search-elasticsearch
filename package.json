@@ -1,0 +1,22 @@
+{
+  "name": "text-based-search-algo",
+  "version": "1.0.0",
+  "description": "Text based search algorithm using typescript and elasticsearch",
+  "main": "index.ts",
+  "scripts": {
+    "start": "tsc index.ts && node index.js",
+    "load": "tsc loadData.ts && node loadData.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mohammed Amir Ansari",
+  "license": "ISC",
+  "dependencies": {
+    "@elastic/elasticsearch": "^7.6.1",
+    "@types/es6-promise": "^3.3.0",
+    "es6-shim": "^0.35.5",
+    "typescript": "^3.5.3"
+  },
+  "devDependencies": {
+    "@types/node": "^12.7.2"
+  }
+}
